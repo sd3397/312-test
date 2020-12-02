@@ -16,7 +16,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font font-size: .8em;
+    font-size: .8em;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -123,7 +123,7 @@ background-image: url("https://assets.codepen.io/4988478/paralax1.png");
 .ptext {
   position: absolute;
   top: 50%;
-  width: 100%
+  width: 100%;
   text-align: center;
   color: #000;
   font-size: 27px;
