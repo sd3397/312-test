@@ -7,11 +7,17 @@
 header {
   background-color: #395596;
   padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .logo {
   margin-top: 20px;
   padding: 20px;
+
+}
+
+nav {
+  padding-top: 30px;
 }
 
 nav ul {
@@ -26,7 +32,6 @@ nav li {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .1em;
-    margin-left: 20px;
     cursor: pointer;
     padding-right: 40px;
     padding-bottom: 20px;
