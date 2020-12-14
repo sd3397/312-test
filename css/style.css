@@ -4,24 +4,50 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
 
-.navigation {
-    color: #395596;
-    padding-top: 10px;
+header {
+  background-color: #395596;
+  padding-top: 1px;
+}
+
+.logo {
+  margin-top: 20px;
+  padding: 20px;
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
+    text-align: right;
+
 }
 
 nav li {
     display: inline-block;
-    font-size: .8em;
+    font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .1em;
     margin-left: 20px;
     cursor: pointer;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-family: Lora;
+}
+
+nav li a:link {
+  color: #F5D9D3;
+  text-decoration: none;
+}
+
+nav li a:visited {
+  color: #E27F6C;
+}
+
+nav li a:hover {
+  color: #FCA595;
+}
+
+nav li a:active {
+  color: #1E3D83;
 }
 
 .hero-headline {
@@ -63,7 +89,7 @@ h2 {
   color: #FCA595;
 }
 
-body, html, p{
+body, html, p {
   color: #1E3D83;
   height: 100%;
   margin: 0;
@@ -72,6 +98,16 @@ body, html, p{
   font-family: 'Lato';
   font-weight: 300;
   line-height: 1.8em;
+}
+
+p {
+text-align: left;
+padding: 50px;
+margin: auto;
+}
+
+.link {
+  text-align: center;
 }
 
 .pimg1, .pimg2, .pimg3, .pimg4 {
@@ -84,22 +120,22 @@ body, html, p{
 }
 
 .pimg1 {
-background-image: url("https://assets.codepen.io/4988478/paralax1.png");
+  background-image: url("https://assets.codepen.io/4988478/parallax1.jpg");
   min-height: 400px;
 }
-
+  
 .pimg2 {
-  background-image: url("https://assets.codepen.io/4988478/paralax2.png");
+  background-image: url("https://assets.codepen.io/4988478/parallax2.jpg");
   min-height: 400px;
 }
-
+  
 .pimg3 {
-  background-image: url("https://assets.codepen.io/4988478/paralax3.png");
+  background-image: url("https://assets.codepen.io/4988478/parallax3.jpg");
   min-height: 400px;
 }
 
 .pimg4 {
-  background-image: url("https://assets.codepen.io/4988478/paralax4.png");
+  background-image: url("https://assets.codepen.io/4988478/parallax4.png");
   min-height: 400px;
 }
 
@@ -140,4 +176,22 @@ background-image: url("https://assets.codepen.io/4988478/paralax1.png");
 
 .ptext .border.trans {
   background-color: transparent;
+}
+
+.solid-btn {
+  display: inline-block;
+  padding:15px 25px;
+  background-color: #FCA595;
+  font-size: 20px;
+  font-family: Lato;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  cursor:pointer;
+  color:#1E3D83;
+}
+
+.solid-btn:hover {
+  background-color: #F5D9D3;
+  align-content: center;
 }
