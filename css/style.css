@@ -57,8 +57,8 @@ nav li a:active {
 
 .hero-headline {
   text-align: center;
-  padding-top: 210px;
-  font-size: 40px;
+  padding-top: 150px;
+  font-size: 35px;
 }
 
 
@@ -92,24 +92,26 @@ h1 {
 h2 {
   font-family: 'Lora';
   color: #FCA595;
+  font-size: 32px;
 }
 
 body, html, p {
   color: #1E3D83;
   height: 100%;
-  margin: 0;
-  padding: 0;
   font-size: 16px;
   font-family: 'Lato';
   font-weight: 300;
-  line-height: 1.8em;
 }
 
 p {
-text-align: left;
-padding: 50px;
-margin: auto;
-}
+  text-align: left;
+  line-height: 32px;   /* within paragraph */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px; /* between paragraphs */
+  }
+
 
 .link {
   text-align: center;
@@ -167,15 +169,14 @@ margin: auto;
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
-  font-size: 27px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+  font-size: 32px;
+  font-family: LobsterTwo;
+  letter-spacing: 2px;
 }
 
 .ptext .border {
-  background-color: #111;
-  color: #fff;
+  background-color: #395596;
+  color: #FCA595;
   padding: 20px;
 }
 
